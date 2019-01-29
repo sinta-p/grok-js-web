@@ -1,7 +1,11 @@
-# node-grok
+# grokjs
+> Fork of https://github.com/Beh01der/node-grok
 
-[![Build Status](https://img.shields.io/travis/honzahommer/node-grok.svg?branch=master)](https://travis-ci.org/honzahommer/node-grok)
-[![Greenkeeper badge](https://badges.greenkeeper.io/honzahommer/node-grok.svg)](https://greenkeeper.io/)
+[![npm version](https://img.shields.io/npm/v/grokjs/next.svg)](https://npmjs.com/grokjs/next)
+[![Build Status](https://img.shields.io/travis/honzahommer/grokjs.svg?branch=master)](https://travis-ci.org/honzahommer/grokjs)
+[![npm downloads](https://img.shields.io/npm/dm/grokjs.svg)](https://npmjs.com/grokjs)
+[![License](https://img.shields.io/npm/l/grokjs.svg)](https://github.com/honzahommer/grokjs/blob/master/LICENSE)
+[![Greenkeeper badge](https://badges.greenkeeper.io/honzahommer/grokjs.svg)](https://greenkeeper.io/)
 
 This library is inspired by logstash grok filter but it's not a port of it.
 
@@ -10,7 +14,7 @@ More details about usage and implementation here https://memz.co/parsing-log-fil
 This is a templating library that helps reusing existing regular expressions and constructing new, more complex one. The primary goal was to help parsing and transforming plain text logs into JSON objects (one line => one object) based on provided template. 
 
 ## Install
-Install locally: `npm install node-grok`.
+Install locally: `npm install grokjs`.
 
 ## Quick start
 Following simple snippet
@@ -18,7 +22,7 @@ Following simple snippet
 var p = '%{IP:client} \\[%{TIMESTAMP_ISO8601:timestamp}\\] "%{WORD:method} %{URIHOST:site}%{URIPATHPARAM:url}" %{INT:code} %{INT:request} %{INT:response} - %{NUMBER:took} \\[%{DATA:cache}\\] "%{DATA:mtag}" "%{DATA:agent}"';
 var str = '203.35.135.165 [2016-03-15T12:42:04+11:00] "GET memz.co/cloud/" 304 962 0 - 0.003 [MISS] "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"';
 
-require('node-grok').loadDefault(function (err, patterns) {
+require('grokjs').loadDefault(function (err, patterns) {
     var pattern = patterns.createPattern(p);
     pattern.parse(str, function (err, obj) {
         console.log(obj);
@@ -52,7 +56,7 @@ into object
 var p = '%{IP:client} \\[%{TIMESTAMP_ISO8601:timestamp}\\] "%{WORD:method} %{URIHOST:site}%{URIPATHPARAM:url}" %{INT:code} %{INT:request} %{INT:response} - %{NUMBER:took} \\[%{DATA:cache}\\] "%{DATA:mtag}" "%{DATA:agent}"';
 var str = '203.35.135.165 [2016-03-15T12:42:04+11:00] "GET memz.co/cloud/" 304 962 0 - 0.003 [MISS] "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.116 Safari/537.36"';
 
-var patterns = require('node-grok').loadDefaultSync();
+var patterns = require('grokjs').loadDefaultSync();
 var pattern = patterns.createPattern(p);
 console.log(pattern.parseSync(str));
 ```
@@ -76,7 +80,7 @@ console.log(pattern.parseSync(str));
 
 * **GrokPattern.parseSync(str)** - parses string using corresponding pattern and returns resulting object `object`
 
-Find out more about node-grok https://memz.co/parsing-log-files-node-js-regex-grok/ 
+Find out more about grokjs https://memz.co/parsing-log-files-node-js-regex-grok/ 
 
 ## License 
 **ISC License (ISC)**
