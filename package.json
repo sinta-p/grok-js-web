@@ -6,7 +6,9 @@
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/_mocha ./lib/test.js"
+    "lint": "semistandard \"lib/**/*.js\" --fix",
+    "unit": "mocha ./test/*.test.js",
+    "test": "npm run lint && npm run unit"
   },
   "keywords": [
     "regex",
@@ -18,6 +20,16 @@
     "Honza Hommer <honza@hommer.cz>"
   ],
   "license": "ISC",
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
+  },
+  "semistandard": {
+    "env": [
+      "mocha"
+    ]
+  },
   "dependencies": {
     "async": "^2.6.1",
     "collections": "^5.1.7",
@@ -25,6 +37,9 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^5.2.0"
+    "husky": "^1.3.1",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "semistandard": "^13.0.1"
   }
 }
