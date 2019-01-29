@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const grok = require('../lib/index.js');
+const grok = require('../lib');
 const path = require('path');
 
 const testParse = (p, str, expected, done) => {
@@ -19,7 +19,7 @@ describe('grok', () => {
     it('is asynchronous', () => {
       let isDone = false;
 
-      grok.loadDefault(patterns => {
+      grok.loadDefault(() => {
         isDone = true;
       });
 
@@ -45,7 +45,7 @@ describe('grok', () => {
         const pattern = patterns.createPattern('%{WORD:verb}');
         let isDone = false;
 
-        pattern.parse('test', (err, result) => {
+        pattern.parse('test', err => {
           expect(err).to.be.null;
 
           isDone = true;
