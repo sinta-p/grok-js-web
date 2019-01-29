@@ -1,0 +1,22 @@
+language: node_js
+
+node_js:
+  - "8"
+  - "10"
+
+sudo: false
+
+cache:
+  directories:
+    - node_modules
+
+script:
+  - "npm test"
+
+branches:
+  only:
+    - master
+
+notifications:
+  email:
+    - honza@hommer.cz
