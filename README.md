@@ -1,5 +1,7 @@
 # node-grok
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/honzahommer/node-grok.svg)](https://greenkeeper.io/)
+
 This library is inspired by logstash grok filter but it's not a port of it.
 
 More details about usage and implementation here https://memz.co/parsing-log-files-node-js-regex-grok/
