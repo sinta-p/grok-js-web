@@ -1,5 +1,6 @@
 # node-grok
 
+[![Build Status](https://img.shields.io/travis/honzahommer/node-grok.svg?branch=master)](https://travis-ci.org/honzahommer/node-grok)
 [![Greenkeeper badge](https://badges.greenkeeper.io/honzahommer/node-grok.svg)](https://greenkeeper.io/)
 
 This library is inspired by logstash grok filter but it's not a port of it.
