@@ -1,7 +1,7 @@
 # grok-js
 > Fork of https://github.com/Beh01der/node-grok
 
-[![npm version](https://img.shields.io/npm/v/grok-js/next.svg)](https://npmjs.com/grok-js)
+[![npm version](https://img.shields.io/npm/v/grok-js.svg)](https://npmjs.com/grok-js)
 [![Build Status](https://img.shields.io/travis/honzahommer/grok-js.svg?branch=master)](https://travis-ci.org/honzahommer/grok-js)
 [![npm downloads](https://img.shields.io/npm/dm/grok-js.svg)](https://npmjs.com/grok-js)
 [![License](https://img.shields.io/npm/l/grok-js.svg)](https://github.com/honzahommer/grok-js/blob/master/LICENSE)
