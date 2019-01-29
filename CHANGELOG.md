@@ -1,5 +1,8 @@
 # Change Log
 
+## [v3.0.0-beta.2](https://github.com/honzahommer/grok-js/tree/v3.0.0-beta.2) (2019-01-29)
+[Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.0.0-beta.1...v3.0.0-beta.2)
+
 ## [v3.0.0-beta.1](https://github.com/honzahommer/grok-js/tree/v3.0.0-beta.1) (2019-01-29)
 [Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.0.0-beta...v3.0.0-beta.1)
 
