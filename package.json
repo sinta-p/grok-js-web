@@ -13,9 +13,11 @@
     "test": "test"
   },
   "scripts": {
+    "publish": "git push origin --tags && npm run changelog && git push origin",
+    "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -am \"Updating changelog\"",
     "lint": "semistandard \"lib/**/*.js\" --fix",
-    "unit": "mocha ./test/*.test.js",
-    "test": "npm run lint && nyc npm run unit"
+    "mocha": "mocha ./test/*.test.js",
+    "test": "npm run lint && nyc npm run mocha"
   },
   "keywords": [
     "regex",
