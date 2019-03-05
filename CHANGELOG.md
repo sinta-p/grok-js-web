@@ -1,5 +1,12 @@
 # Change Log
 
+## [v3.0.0](https://github.com/honzahommer/grok-js/tree/v3.0.0) (2019-03-05)
+[Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.0.0-beta.2...v3.0.0)
+
+**Merged pull requests:**
+
+- Update mocha to the latest version 🚀 [\#2](https://github.com/honzahommer/grok-js/pull/2) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v3.0.0-beta.2](https://github.com/honzahommer/grok-js/tree/v3.0.0-beta.2) (2019-01-29)
 [Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.0.0-beta.1...v3.0.0-beta.2)
 
