@@ -1,5 +1,12 @@
 # Change Log
 
+## [v3.0.1](https://github.com/honzahommer/grok-js/tree/v3.0.1) (2019-03-14)
+[Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.0.0...v3.0.1)
+
+**Merged pull requests:**
+
+- Correcting usage of debug module [\#3](https://github.com/honzahommer/grok-js/pull/3) ([RaghuChandrasekaran](https://github.com/RaghuChandrasekaran))
+
 ## [v3.0.0](https://github.com/honzahommer/grok-js/tree/v3.0.0) (2019-03-05)
 [Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.0.0-beta.2...v3.0.0)
 
