@@ -1,5 +1,15 @@
 # Change Log
 
+## [v3.0.3](https://github.com/honzahommer/grok-js/tree/v3.0.3) (2019-04-16)
+[Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.0.2...v3.0.3)
+
+## [v3.0.2](https://github.com/honzahommer/grok-js/tree/v3.0.2) (2019-04-16)
+[Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.0.1...v3.0.2)
+
+**Merged pull requests:**
+
+- Update nyc to the latest version 🚀 [\#4](https://github.com/honzahommer/grok-js/pull/4) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v3.0.1](https://github.com/honzahommer/grok-js/tree/v3.0.1) (2019-03-14)
 [Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.0.0...v3.0.1)
 
