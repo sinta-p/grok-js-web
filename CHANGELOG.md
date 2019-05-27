@@ -1,5 +1,13 @@
 # Change Log
 
+## [v3.0.4](https://github.com/honzahommer/grok-js/tree/v3.0.4) (2019-05-27)
+[Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.0.3...v3.0.4)
+
+**Merged pull requests:**
+
+- Update async to the latest version 🚀 [\#6](https://github.com/honzahommer/grok-js/pull/6) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- Update husky to the latest version 🚀 [\#5](https://github.com/honzahommer/grok-js/pull/5) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v3.0.3](https://github.com/honzahommer/grok-js/tree/v3.0.3) (2019-04-16)
 [Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.0.2...v3.0.3)
 
