@@ -1,23 +1,19 @@
 language: node_js
-
 node_js:
-  - "8"
-  - "10"
-
+- '12'
+- '11'
+- '10'
+- '8'
 sudo: false
-
 cache:
   directories:
-    - node_modules
-
-script:
-  - "npm test"
-
-branches:
-  only:
-    - master
-    - /^greenkeeper/.*$/
-
-notifications:
-  email:
-    - honza@hommer.cz
+  - node_modules
+deploy:
+  node_js: 8
+  provider: npm
+  email: honza@hommer.cz
+  api_key:
+    secure: zpylE/zH7DutKKonl/QGpiJA8HUkxGC0Io/wmgyYrzz7KVTsr+/TjfgtJr02YnboQVMWXhNDo0OHKuDpqPxdZljPM5JI2XoHRw8rvCiTuBEQEDafuYTJshSs4XL0IUbyAhXh7sIld45cDaLNwWub6gixOK5sQpgG1gfiGjICcjKw5njVLLMKgGQAli4bmrO3rDLjzG6nvtHW2B5SsD76zuEh/8Cq3usHmrUbtzDtuQdskzS7eLt3IMUKagUWt/HfDJd9aQoNAcdbEH+4JGaECkadrjCZDY/fDJ4/N6OLZf3SPBIs6MYAIYzgwa66gKuKYIW03Uo4jYoMoG8R1vM4AdQtwYEy2Tu/e6ygHqYizw4R90v4dGW752+rO73WNhw1zczA1Af+K3jXtWJhMgKWFRjTagJgs10ORrkwpHSZsCewwVeecIAv1HjPeQitMnD7wE2Q6Ek9xSkHRDpLJ0wWMYv5rlgAkc1vZ4nmYQIkHsilh8ExXpbwEa5AAD/FK1zHczZRg/gVeV5wl7uiMEaVzniBcoN5Dy+8VqVQobtDN/KcTBlq3mKhPZnNUUnZ7fSPCKz/0qSjhSIddRiZeaVrKp9kK4ttOBZC/HJAtZkB8gidbf1YEqOJcVrNck9jwuCJueB/wiWPIDHaSP6szJt38JdT6pYnv8GQKogxY0rIKKM=
+  on:
+    tags: true
+    repo: honzahommer/grok-js
