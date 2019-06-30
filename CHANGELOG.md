@@ -1,5 +1,17 @@
 # Change Log
 
+## [v3.2.0](https://github.com/honzahommer/grok-js/tree/v3.2.0) (2019-06-30)
+[Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.1.0...v3.2.0)
+
+**Implemented enhancements:**
+
+- Bump oniguruma to 7.2.0 for node.js 12 support [\#7](https://github.com/honzahommer/grok-js/issues/7)
+- Add promises support [\#9](https://github.com/honzahommer/grok-js/pull/9) ([honzahommer](https://github.com/honzahommer))
+
+**Merged pull requests:**
+
+- Update husky to the latest version 🚀 [\#8](https://github.com/honzahommer/grok-js/pull/8) ([honzahommer](https://github.com/honzahommer))
+
 ## [v3.1.0](https://github.com/honzahommer/grok-js/tree/v3.1.0) (2019-06-19)
 [Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.0.4...v3.1.0)
 
