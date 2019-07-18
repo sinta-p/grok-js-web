@@ -1,5 +1,12 @@
 # Change Log
 
+## [v3.2.2](https://github.com/honzahommer/grok-js/tree/v3.2.2) (2019-07-18)
+[Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.2.1...v3.2.2)
+
+**Merged pull requests:**
+
+- Bump lodash from 4.17.11 to 4.17.14 [\#11](https://github.com/honzahommer/grok-js/pull/11) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [v3.2.1](https://github.com/honzahommer/grok-js/tree/v3.2.1) (2019-07-05)
 [Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.2.0...v3.2.1)
 
