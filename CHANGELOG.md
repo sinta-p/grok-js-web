@@ -1,5 +1,14 @@
 # Change Log
 
+## [v3.2.3](https://github.com/honzahommer/grok-js/tree/v3.2.3) (2019-08-27)
+[Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.2.2...v3.2.3)
+
+**Merged pull requests:**
+
+- chore\(package\): update lockfile package-lock.json [\#14](https://github.com/honzahommer/grok-js/pull/14) ([honzahommer](https://github.com/honzahommer))
+- Update husky to the latest version 🚀 [\#13](https://github.com/honzahommer/grok-js/pull/13) ([honzahommer](https://github.com/honzahommer))
+- Update semistandard to the latest version 🚀 [\#12](https://github.com/honzahommer/grok-js/pull/12) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v3.2.2](https://github.com/honzahommer/grok-js/tree/v3.2.2) (2019-07-18)
 [Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.2.1...v3.2.2)
 
