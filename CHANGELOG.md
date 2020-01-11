@@ -1,5 +1,17 @@
 # Changelog
 
+## [v3.3.0](https://github.com/honzahommer/grok-js/tree/v3.3.0) (2020-01-11)
+
+[Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.2.4...v3.3.0)
+
+**Fixed bugs:**
+
+- Conflict With KafkaJs [\#19](https://github.com/honzahommer/grok-js/issues/19)
+
+**Merged pull requests:**
+
+- Update husky to the latest version 🚀 [\#20](https://github.com/honzahommer/grok-js/pull/20) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+
 ## [v3.2.4](https://github.com/honzahommer/grok-js/tree/v3.2.4) (2019-12-31)
 
 [Full Changelog](https://github.com/honzahommer/grok-js/compare/v3.2.3...v3.2.4)
@@ -62,7 +74,6 @@
 
 **Merged pull requests:**
 
-- Update async to the latest version 🚀 [\#6](https://github.com/honzahommer/grok-js/pull/6) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 - Update husky to the latest version 🚀 [\#5](https://github.com/honzahommer/grok-js/pull/5) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v3.0.3](https://github.com/honzahommer/grok-js/tree/v3.0.3) (2019-04-16)
@@ -91,6 +102,7 @@
 
 **Merged pull requests:**
 
+- Update async to the latest version 🚀 [\#6](https://github.com/honzahommer/grok-js/pull/6) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 - Update mocha to the latest version 🚀 [\#2](https://github.com/honzahommer/grok-js/pull/2) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
 
 ## [v3.0.0-beta.2](https://github.com/honzahommer/grok-js/tree/v3.0.0-beta.2) (2019-01-29)
