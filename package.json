@@ -17,10 +17,7 @@
     "release:minor": "npm version minor && npm run push",
     "release:major": "npm version major && npm run push",
     "push": "git push origin --tags && npm run changelog && git push origin",
-    "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -am \"Updating changelog\"",
-    "lint": "semistandard \"lib/**/*.js\" --fix",
-    "mocha": "mocha ./test/*.test.js",
-    "test": "npm run lint && nyc npm run mocha"
+    "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -am \"Updating changelog\""
   },
   "keywords": [
     "regex",
